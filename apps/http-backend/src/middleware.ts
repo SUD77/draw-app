@@ -24,7 +24,7 @@
 
 import { NextFunction, Request, Response } from "express";
 import jwt, { JwtPayload } from "jsonwebtoken";
-import { JWT_SECRET } from "./config";
+import { JWT_SECRET } from "@repo/backend-common/config";
 
 // Add userId to Express.Request (no more ts-ignore)
 declare global {
