@@ -1,0 +1,4 @@
+{
+  // Below line extends the base.json present in package/typescript-config folder
+  "extends":"@repo/typescript-config/base.json"
+}
